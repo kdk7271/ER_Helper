@@ -1,0 +1,65 @@
+/* 전체 페이지 스타일 */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+/* 페이지 제목 스타일 */
+.title {
+    color: #343a40;
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* 테이블 컨테이너 스타일 */
+.table-container {
+    max-width: 100%; /* 테이블 컨테이너가 화면 전체 너비를 사용 */
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    overflow-x: auto; /* 가로 스크롤 활성화 (작은 화면에서도 보기 편하도록) */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 테이블 스타일 */
+.table {
+    width: 100%; /* 테이블을 컨테이너에 맞게 확장 */
+    table-layout: fixed; /* 셀 크기를 균등하게 분배 */
+    margin-bottom: 0;
+}
+
+/* 테이블 헤더 스타일 */
+.table-header {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+}
+
+/* 각 셀에 최소 크기 적용 */
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 14px;
+    min-width: 120px; /* 각 열의 최소 너비 */
+    word-wrap: break-word; /* 긴 텍스트를 줄바꿈 */
+}
+
+/* 모바일 반응형 */
+@media (max-width: 768px) {
+    .table-container {
+        padding: 10px;
+    }
+
+    .table th, .table td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+}
