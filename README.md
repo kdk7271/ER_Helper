@@ -43,6 +43,10 @@
 
 ![Image](https://github.com/user-attachments/assets/ef8b9e74-d662-4278-9655-9f7aa059ac46)
 
-## 시스템 구조
+## 🛠️ 시스템 구조
 
 ![Image](https://github.com/user-attachments/assets/e75a6e0f-2477-47a9-bf66-ecfa1caa7576)
+
+## 상세 기능 설명
+
+
