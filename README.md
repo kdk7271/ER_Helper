@@ -50,6 +50,10 @@ https://github.com/kdk7271/mini_proj_6
 
 ![Image](https://github.com/user-attachments/assets/e75a6e0f-2477-47a9-bf66-ecfa1caa7576)
 
+## 인공지능 서버 구조
+
+![Image](https://github.com/user-attachments/assets/e5041d0d-21e8-4904-9f5b-0207a9a5e89a)
+
 ## 상세 기능 설명
 
 **가. 증상 및 위치 입력**
@@ -85,3 +89,30 @@ https://github.com/kdk7271/mini_proj_6
 1️⃣ 기간별 사용 로그 검색 : 서비스 사용 로그를 기간별로 검색합니다.
 
 2️⃣ 사용 로그확인 : 사용자들의 사용 로그를 확인, 삭제가 가능합니다.
+
+## 배포
+
+**가. Docker**
+
+
+![Image](https://github.com/user-attachments/assets/2cc9f089-206d-4e8e-ae85-c9d39e6e0c29)
+
+* Spring 서버와 Fast Api 서버를 도커에 이미지 배포하였습니다.
+
+**나. Azure**
+
+**나-1 Spring 서버**
+
+![Image](https://github.com/user-attachments/assets/48bf0a27-dae8-4aa8-aad7-162ab6e7e49b)
+
+* Spring 서버를 Azure App Service 를 통해 배포하였습니다.
+
+**나-2 Fast Api 서버**
+
+![Image](https://github.com/user-attachments/assets/67b0cd86-c78b-47f3-bc06-64ccc5d0031f)
+
+* Fast Api 서버를 Azure App Service 를 통해 배포하였습니다.
+
+
+
+
